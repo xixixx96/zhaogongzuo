@@ -21,10 +21,7 @@ jobs:
           python-version: '3.12'
 
       - name: 安装依赖
-        run: |
-          pip install requests beautifulsoup4 lxml playwright
-          playwright install chromium
-          playwright install-deps chromium
+        run: pip install requests beautifulsoup4 lxml
 
       - name: 运行抓取与推送
         run: python run.py

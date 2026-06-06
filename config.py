@@ -43,8 +43,8 @@ QICHACHA_SEARCH_URL = "https://www.qcc.com/web/search"
 QICHACHA_MAX_LAWSUITS = 5  # 司法案件超过此数则排除
 
 # ========== 推送配置 ==========
-MAX_JOBS_PER_PUSH = 20  # 每次推送最多展示岗位数
-DEDUP_DAYS = 30  # 去重天数
+MAX_JOBS_PER_PUSH = 3
+DEDUP_DAYS = 90  # 去重天数
 PUSH_TIMEOUT_MINUTES = 12  # 超时兜底：超时也把已抓到的发出去
 
 # ========== 日志配置 ==========
