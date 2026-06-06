@@ -250,12 +250,15 @@ SCRAPERS = [
     ("智联招聘", "scrapers.zhilian", "ZhilianScraper"),
 ]
 
+SINGLE_PLATFORM_TIMEOUT = 60  # 单平台最多60秒
 
-def _scrape_platform(mod_path: str, cls_name: str) -> list[dict]:
+
+def _scrape_with_timeout(mod_path: str, cls_name: str) -> list[dict]:
+    """带超时的单平台抓取"""
     import importlib
     mod = importlib.import_module(mod_path)
     cls = getattr(mod, cls_name)
-    scraper = cls(min_delay=0.5, max_delay=1.5)
+    scraper = cls(min_delay=0.3, max_delay=1.0)
     return scraper.search_all(TARGET_CITIES, JOB_KEYWORDS)
 
 
@@ -273,7 +276,9 @@ def run_daily():
     for platform_name, mod_path, cls_name in SCRAPERS:
         logger.info(f"--- {platform_name} ---")
         try:
-            raw = _scrape_platform(mod_path, cls_name)
+            with ThreadPoolExecutor(max_workers=1) as p:
+                fut = p.submit(_scrape_with_timeout, mod_path, cls_name)
+                raw = fut.result(timeout=SINGLE_PLATFORM_TIMEOUT)
             logger.info(f"  抓到 {len(raw)} 个原始岗位")
 
             for job in raw:
