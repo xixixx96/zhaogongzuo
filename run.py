@@ -30,6 +30,7 @@ from config import (
     DATA_DIR,
     SEEN_JOBS_FILE,
     INDUSTRY_KEYWORDS,
+    KEEP_SALARY_UNKNOWN,
 )
 from modules.company_check import check_company
 from modules.storage import is_seen, mark_all_seen
@@ -305,9 +306,9 @@ def run_daily():
                     continue
                 seen_job_ids.add(jid)
 
-                # 薪资过滤
+                # 薪资过滤（面议岗位放行）
                 salary = max(job.get("salary_max", 0), job.get("salary_min", 0))
-                if salary < MIN_SALARY:
+                if salary < MIN_SALARY and not (KEEP_SALARY_UNKNOWN and salary == 0):
                     continue
 
                 # 行业过滤
@@ -350,7 +351,11 @@ def run_daily():
                 logger.warning(f"  处理岗位异常: {e}")
 
     logger.info(f"{'='*40}")
-    logger.info(f"Phase 1 完成: {len(candidates)} 个候选 | {excluded_count} 个被财务排除")
+    logger.info(f"Phase 1 完成: {len(candidates)} 个候选 | {excluded_count} 个被财务排除 | {len(seen_job_ids)} 个原始岗位")
+
+    if not candidates:
+        logger.warning("所有平台均未抓到符合条件的数据 → 可能是爬虫被拦截或关键词不匹配")
+        logger.warning(f"已尝试 {len(SCRAPERS)} 个平台, {len(TARGET_CITIES)} 个城市, {len(JOB_KEYWORDS)} 个关键词")
 
     # ====== Phase 2: 5选3 精选 ======
     # 规则：
