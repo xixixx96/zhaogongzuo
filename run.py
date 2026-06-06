@@ -292,6 +292,9 @@ def run_daily():
             with ThreadPoolExecutor(max_workers=1) as p:
                 fut = p.submit(_scrape_with_timeout, mod_path, cls_name)
                 raw = fut.result(timeout=SINGLE_PLATFORM_TIMEOUT)
+        except OSError:
+            # win32 特殊异常
+            pass
         except Exception as e:
             reason = "超时" if "timeout" in str(e).lower() else str(e)[:80]
             logger.warning(f"  {platform_name} 跳过: {reason}")
