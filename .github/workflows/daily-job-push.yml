@@ -24,8 +24,7 @@ jobs:
 
       - name: 安装依赖
         run: |
-          pip install requests beautifulsoup4 lxml
-          pip install playwright
+          pip install -r requirements.txt
           playwright install chromium
           playwright install-deps chromium
 
