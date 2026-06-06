@@ -447,7 +447,7 @@ def run_dry():
     print("Dry-run 模式...")
     for name, mod_path, cls_name in SCRAPERS[:2]:
         try:
-            raw = _scrape_platform(mod_path, cls_name)
+            raw = _scrape_with_timeout(mod_path, cls_name)
             print(f"\n{name}: {len(raw)} 个原始岗位")
             for j in raw[:3]:
                 print(f"  - {j.get('title')} @ {j.get('company')} | {j.get('salary_text','')} | {j.get('city')}")

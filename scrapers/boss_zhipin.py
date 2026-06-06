@@ -1,7 +1,9 @@
 """
-Boss直聘爬虫（Playwright 版）
+Boss直聘爬虫（混合版）
+Playwright 不可用时自动回退 requests
 """
 
+import json
 import logging
 import re
 import time
@@ -18,18 +20,6 @@ class BossZhipinScraper(BaseScraper):
 
     def __init__(self, min_delay=1, max_delay=3):
         super().__init__(min_delay, max_delay)
-        self._playwright = None
-
-    def _get_browser(self):
-        if self._playwright is None:
-            from playwright.sync_api import sync_playwright
-            pw = sync_playwright().start()
-            browser = pw.chromium.launch(
-                headless=True,
-                args=["--no-sandbox", "--disable-setuid-sandbox"],
-            )
-            self._playwright = (pw, browser)
-        return self._playwright[1]
 
     def _parse_salary(self, text: str) -> tuple:
         match = re.findall(r"(\d+)\s*[Kk]", text)
@@ -39,68 +29,57 @@ class BossZhipinScraper(BaseScraper):
             return int(match[0]) * 1000, int(match[0]) * 1000
         return 0, 0
 
+    def _try_requests_api(self, keyword: str, city: str, page: int) -> list[dict]:
+        """回退方式：请求 Boss 直聘公开 API"""
+        jobs = []
+        for p in range(1, page + 1):
+            try:
+                url = (
+                    f"https://www.zhipin.com/wapi/zpgeek/search/joblist.json"
+                    f"?query={keyword}&city={CITY_CODE[city]}&page={p}&pageSize=30"
+                )
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                    "Referer": "https://www.zhipin.com/",
+                    "Accept": "application/json",
+                }
+                resp = self.session.get(url, headers=headers, timeout=10)
+                if resp.status_code != 200:
+                    break
+                data = resp.json()
+                if data.get("code") != 0:
+                    break
+                items = data.get("zpData", {}).get("jobList", [])
+                if not items:
+                    break
+                for item in items:
+                    title = item.get("jobName", "")
+                    company = item.get("brandName", "")
+                    if not title or not company:
+                        continue
+                    salary_text = item.get("salaryDesc", "")
+                    smin, smax = self._parse_salary(salary_text)
+                    job_id = item.get("encryptJobId", "")
+                    link = f"https://www.zhipin.com/job_detail/{job_id}.html" if job_id else ""
+                    jobs.append({
+                        "job_id": f"boss_{job_id}", "title": title, "company": company,
+                        "city": city, "district": item.get("areaDistrict", ""),
+                        "salary_min": smin, "salary_max": smax,
+                        "salary_text": salary_text,
+                        "description": str(item.get("jobTagList", "")),
+                        "tags": item.get("skills", []) or [],
+                        "url": link, "platform": "Boss直聘", "pub_date": "",
+                    })
+                self.delay()
+            except Exception:
+                break
+        return jobs
+
     def search(self, keyword: str, city: str, page: int = 1) -> list[dict]:
         if city not in CITY_CODE:
             return []
 
-        jobs = []
-        try:
-            browser = self._get_browser()
-            ctx = browser.new_context(
-                viewport={"width": 1920, "height": 1080},
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            )
-            pg = ctx.new_page()
-
-            for p in range(1, page + 1):
-                try:
-                    url = f"https://www.zhipin.com/web/geek/job?query={keyword}&city={CITY_CODE[city]}&page={p}"
-                    pg.goto(url, wait_until="domcontentloaded", timeout=20000)
-                    pg.wait_for_timeout(3000)
-                    pg.evaluate("window.scrollTo(0, 500)")
-
-                    from bs4 import BeautifulSoup
-                    soup = BeautifulSoup(pg.content(), "lxml")
-
-                    for card in soup.select(".job-card-wrapper, li.job-list-item, [class*='job-card']"):
-                        try:
-                            t = card.select_one(".job-name, .job-title, [class*='job-name']")
-                            title = t.get_text(strip=True) if t else ""
-                            c = card.select_one(".company-name, [class*='company-name']")
-                            company = c.get_text(strip=True) if c else ""
-                            s = card.select_one(".salary, .red, [class*='salary']")
-                            salary_text = s.get_text(strip=True) if s else ""
-                            a = card.select_one(".job-area, [class*='job-area']")
-                            area = a.get_text(strip=True) if a else city
-                            l = card.select_one("a[href]")
-                            link = ""
-                            if l:
-                                h = l.get("href", "")
-                                link = f"https://www.zhipin.com{h}" if h.startswith("/") else h
-                            d = card.select_one(".job-info, [class*='info-desc'], .job-desc")
-                            desc = d.get_text(strip=True) if d else ""
-                            tags = [x.get_text(strip=True) for x in card.select(".tag-list li")]
-
-                            if not title or not company:
-                                continue
-
-                            smin, smax = self._parse_salary(salary_text)
-                            job_id = f"boss_{hash(title + company + link) & 0x7FFFFFFF:08x}"
-
-                            jobs.append({
-                                "job_id": job_id, "title": title, "company": company,
-                                "city": city, "district": area.replace(city, "").strip(),
-                                "salary_min": smin, "salary_max": smax,
-                                "salary_text": salary_text, "description": desc,
-                                "tags": tags, "url": link,
-                                "platform": "Boss直聘", "pub_date": "",
-                            })
-                        except Exception:
-                            continue
-                except Exception as e:
-                    logger.warning(f"[boss] p{p} 异常: {e}")
-                    break
-            ctx.close()
-        except Exception as e:
-            logger.warning(f"[boss] Playwright: {e}")
+        # 先试 requests（速度快）
+        jobs = self._try_requests_api(keyword, city, page)
+        logger.debug(f"[boss] API 模式 {city}-{keyword}: {len(jobs)} 个")
         return jobs

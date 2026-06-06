@@ -1,0 +1,549 @@
+2026-06-06 23:05:12,532 [INFO] [BossZhipin] 开始...
+2026-06-06 23:05:12,535 [INFO] [boss_zhipin] 搜索: 上海 - AI产品经理
+2026-06-06 23:05:12,535 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,535 [INFO] [boss_zhipin] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:05:12,535 [INFO] [boss_zhipin] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:05:12,536 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,536 [INFO] [boss_zhipin] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:05:12,536 [INFO] [boss_zhipin] 搜索: 上海 - 具身智能
+2026-06-06 23:05:12,536 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,536 [INFO] [boss_zhipin] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:05:12,537 [INFO] [boss_zhipin] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:05:12,537 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,537 [INFO] [boss_zhipin] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:05:12,537 [INFO] [boss_zhipin] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:05:12,538 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,538 [INFO] [boss_zhipin] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:05:12,538 [INFO] [boss_zhipin] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:05:12,538 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,538 [INFO] [boss_zhipin] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:05:12,538 [INFO] [boss_zhipin] 搜索: 杭州 - AI产品经理
+2026-06-06 23:05:12,539 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,539 [INFO] [boss_zhipin] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:05:12,539 [INFO] [boss_zhipin] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:05:12,539 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,539 [INFO] [boss_zhipin] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:05:12,539 [INFO] [boss_zhipin] 搜索: 杭州 - 具身智能
+2026-06-06 23:05:12,540 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,540 [INFO] [boss_zhipin] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:05:12,540 [INFO] [boss_zhipin] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:05:12,540 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,540 [INFO] [boss_zhipin] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:05:12,540 [INFO] [boss_zhipin] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:05:12,541 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,541 [INFO] [boss_zhipin] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:05:12,541 [INFO] [boss_zhipin] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:05:12,542 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,542 [INFO] [boss_zhipin] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:05:12,542 [INFO] [boss_zhipin] 搜索: 苏州 - AI产品经理
+2026-06-06 23:05:12,542 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,542 [INFO] [boss_zhipin] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:05:12,542 [INFO] [boss_zhipin] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:05:12,542 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,542 [INFO] [boss_zhipin] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:05:12,542 [INFO] [boss_zhipin] 搜索: 苏州 - 具身智能
+2026-06-06 23:05:12,542 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,543 [INFO] [boss_zhipin] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:05:12,543 [INFO] [boss_zhipin] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:05:12,543 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,543 [INFO] [boss_zhipin] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:05:12,543 [INFO] [boss_zhipin] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:05:12,543 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,544 [INFO] [boss_zhipin] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:05:12,544 [INFO] [boss_zhipin] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:05:12,544 [WARNING] [boss] Playwright: No module named 'playwright'
+2026-06-06 23:05:12,544 [INFO] [boss_zhipin] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:05:12,544 [INFO] [BossZhipin] 完成: 0 个 (0s)
+2026-06-06 23:05:12,544 [INFO] [Lagou] 开始...
+2026-06-06 23:05:12,545 [INFO] [lagou] 搜索: 上海 - AI产品经理
+2026-06-06 23:05:13,852 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:13,852 [INFO] [lagou] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:05:13,852 [INFO] [lagou] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:05:14,658 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:14,658 [INFO] [lagou] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:05:14,658 [INFO] [lagou] 搜索: 上海 - 具身智能
+2026-06-06 23:05:15,174 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:15,174 [INFO] [lagou] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:05:15,174 [INFO] [lagou] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:05:15,717 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:15,717 [INFO] [lagou] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:05:15,717 [INFO] [lagou] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:05:16,552 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:16,552 [INFO] [lagou] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:05:16,552 [INFO] [lagou] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:05:17,547 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:17,547 [INFO] [lagou] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:05:17,547 [INFO] [lagou] 搜索: 杭州 - AI产品经理
+2026-06-06 23:05:18,004 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:18,005 [INFO] [lagou] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:05:18,005 [INFO] [lagou] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:05:18,991 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:18,991 [INFO] [lagou] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:05:18,991 [INFO] [lagou] 搜索: 杭州 - 具身智能
+2026-06-06 23:05:19,827 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:19,828 [INFO] [lagou] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:05:19,828 [INFO] [lagou] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:05:20,619 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:20,619 [INFO] [lagou] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:05:20,619 [INFO] [lagou] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:05:21,587 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:21,587 [INFO] [lagou] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:05:21,587 [INFO] [lagou] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:05:22,407 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:22,407 [INFO] [lagou] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:05:22,407 [INFO] [lagou] 搜索: 苏州 - AI产品经理
+2026-06-06 23:05:23,241 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:23,241 [INFO] [lagou] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:05:23,241 [INFO] [lagou] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:05:24,241 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:24,241 [INFO] [lagou] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:05:24,241 [INFO] [lagou] 搜索: 苏州 - 具身智能
+2026-06-06 23:05:25,162 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:25,162 [INFO] [lagou] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:05:25,162 [INFO] [lagou] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:05:26,201 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:26,201 [INFO] [lagou] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:05:26,201 [INFO] [lagou] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:05:27,047 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:27,047 [INFO] [lagou] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:05:27,047 [INFO] [lagou] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:05:27,741 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:05:27,741 [INFO] [lagou] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:05:27,741 [INFO] [Lagou] 完成: 0 个 (15s)
+2026-06-06 23:06:00,027 [INFO] 企业微信推送成功
+2026-06-06 23:06:07,306 [INFO] 企业微信推送成功
+2026-06-06 23:06:14,092 [INFO] 🚀 岗位日报 2026-06-06（目标：精选 3 个）
+2026-06-06 23:06:14,092 [INFO] --- Boss直聘 ---
+2026-06-06 23:06:14,092 [INFO] [BossZhipin] 开始...
+2026-06-06 23:06:14,092 [INFO] [boss_zhipin] 搜索: 上海 - AI产品经理
+2026-06-06 23:06:14,558 [WARNING] [boss] Playwright: BrowserType.launch: Executable doesn't exist at C:\Users\xixixx96\AppData\Local\ms-playwright\chromium_headless_shell-1223\chrome-headless-shell-win64\chrome-headless-shell.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2026-06-06 23:06:14,558 [INFO] [boss_zhipin] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:14,558 [INFO] [boss_zhipin] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:06:14,558 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,558 [INFO] [boss_zhipin] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:14,558 [INFO] [boss_zhipin] 搜索: 上海 - 具身智能
+2026-06-06 23:06:14,558 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,558 [INFO] [boss_zhipin] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:06:14,558 [INFO] [boss_zhipin] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:06:14,558 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:06:14,559 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:06:14,559 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 搜索: 杭州 - AI产品经理
+2026-06-06 23:06:14,559 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:06:14,559 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 搜索: 杭州 - 具身智能
+2026-06-06 23:06:14,559 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:06:14,559 [INFO] [boss_zhipin] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:06:14,559 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:06:14,560 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:06:14,560 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 苏州 - AI产品经理
+2026-06-06 23:06:14,560 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:06:14,560 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 苏州 - 具身智能
+2026-06-06 23:06:14,560 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:06:14,560 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:06:14,560 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:14,560 [INFO] [boss_zhipin] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:06:14,561 [WARNING] [boss] Playwright: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-06-06 23:06:14,561 [INFO] [boss_zhipin] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:14,561 [INFO] [BossZhipin] 完成: 0 个 (0s)
+2026-06-06 23:06:14,561 [INFO]   抓到 0 个原始岗位
+2026-06-06 23:06:14,561 [INFO] --- 拉勾网 ---
+2026-06-06 23:06:14,561 [INFO] [Lagou] 开始...
+2026-06-06 23:06:14,562 [INFO] [lagou] 搜索: 上海 - AI产品经理
+2026-06-06 23:06:15,288 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:15,288 [INFO] [lagou] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:15,288 [INFO] [lagou] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:06:16,313 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:16,313 [INFO] [lagou] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:16,313 [INFO] [lagou] 搜索: 上海 - 具身智能
+2026-06-06 23:06:17,127 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:17,127 [INFO] [lagou] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:06:17,127 [INFO] [lagou] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:06:18,000 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:18,000 [INFO] [lagou] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:18,000 [INFO] [lagou] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:06:18,623 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:18,623 [INFO] [lagou] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:18,623 [INFO] [lagou] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:06:19,197 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:19,197 [INFO] [lagou] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:19,197 [INFO] [lagou] 搜索: 杭州 - AI产品经理
+2026-06-06 23:06:19,711 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:19,711 [INFO] [lagou] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:19,711 [INFO] [lagou] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:06:20,477 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:20,477 [INFO] [lagou] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:20,477 [INFO] [lagou] 搜索: 杭州 - 具身智能
+2026-06-06 23:06:21,402 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:21,402 [INFO] [lagou] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:06:21,402 [INFO] [lagou] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:06:22,098 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:22,098 [INFO] [lagou] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:22,098 [INFO] [lagou] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:06:22,800 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:22,800 [INFO] [lagou] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:22,800 [INFO] [lagou] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:06:23,753 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:23,753 [INFO] [lagou] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:23,753 [INFO] [lagou] 搜索: 苏州 - AI产品经理
+2026-06-06 23:06:24,767 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:24,767 [INFO] [lagou] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:24,767 [INFO] [lagou] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:06:25,615 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:25,615 [INFO] [lagou] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:25,615 [INFO] [lagou] 搜索: 苏州 - 具身智能
+2026-06-06 23:06:25,997 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:25,997 [INFO] [lagou] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:06:25,997 [INFO] [lagou] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:06:26,582 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:26,582 [INFO] [lagou] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:26,582 [INFO] [lagou] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:06:27,029 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:27,031 [INFO] [lagou] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:27,031 [INFO] [lagou] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:06:27,768 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:27,768 [INFO] [lagou] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:27,768 [INFO] [Lagou] 完成: 0 个 (13s)
+2026-06-06 23:06:27,773 [INFO]   抓到 0 个原始岗位
+2026-06-06 23:06:27,773 [INFO] --- 猎聘 ---
+2026-06-06 23:06:27,773 [INFO] [Liepin] 开始...
+2026-06-06 23:06:27,776 [INFO] [liepin] 搜索: 上海 - AI产品经理
+2026-06-06 23:06:28,857 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:28,857 [INFO] [liepin] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:28,857 [INFO] [liepin] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:06:29,884 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:29,884 [INFO] [liepin] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:29,884 [INFO] [liepin] 搜索: 上海 - 具身智能
+2026-06-06 23:06:30,273 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:30,273 [INFO] [liepin] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:06:30,273 [INFO] [liepin] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:06:31,008 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:31,008 [INFO] [liepin] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:31,008 [INFO] [liepin] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:06:31,569 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:31,569 [INFO] [liepin] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:31,569 [INFO] [liepin] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:06:32,463 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:32,463 [INFO] [liepin] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:32,463 [INFO] [liepin] 搜索: 杭州 - AI产品经理
+2026-06-06 23:06:33,260 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:33,260 [INFO] [liepin] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:33,260 [INFO] [liepin] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:06:33,859 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:33,859 [INFO] [liepin] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:33,859 [INFO] [liepin] 搜索: 杭州 - 具身智能
+2026-06-06 23:06:34,683 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:34,683 [INFO] [liepin] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:06:34,683 [INFO] [liepin] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:06:35,457 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:35,457 [INFO] [liepin] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:35,457 [INFO] [liepin] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:06:36,123 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:36,125 [INFO] [liepin] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:36,125 [INFO] [liepin] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:06:36,943 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:36,947 [INFO] [liepin] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:36,947 [INFO] [liepin] 搜索: 苏州 - AI产品经理
+2026-06-06 23:06:37,588 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:37,588 [INFO] [liepin] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:37,588 [INFO] [liepin] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:06:38,179 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:38,179 [INFO] [liepin] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:38,179 [INFO] [liepin] 搜索: 苏州 - 具身智能
+2026-06-06 23:06:38,903 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:38,903 [INFO] [liepin] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:06:38,903 [INFO] [liepin] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:06:39,317 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:39,317 [INFO] [liepin] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:39,317 [INFO] [liepin] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:06:40,337 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:40,337 [INFO] [liepin] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:40,337 [INFO] [liepin] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:06:40,767 [INFO] [liepin] 第1页: 提取到 0 个岗位
+2026-06-06 23:06:40,767 [INFO] [liepin] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:40,767 [INFO] [Liepin] 完成: 0 个 (13s)
+2026-06-06 23:06:40,767 [INFO]   抓到 0 个原始岗位
+2026-06-06 23:06:40,767 [INFO] --- 前程无忧 ---
+2026-06-06 23:06:40,767 [INFO] [Job51] 开始...
+2026-06-06 23:06:40,770 [INFO] [job51] 搜索: 上海 - AI产品经理
+2026-06-06 23:06:42,091 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:42,993 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:42,993 [INFO] [job51] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:42,993 [INFO] [job51] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:06:44,243 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:44,993 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:44,993 [INFO] [job51] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:44,993 [INFO] [job51] 搜索: 上海 - 具身智能
+2026-06-06 23:06:45,726 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:46,693 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:46,694 [INFO] [job51] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:06:46,694 [INFO] [job51] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:06:47,529 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:48,273 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:48,273 [INFO] [job51] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:48,273 [INFO] [job51] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:06:48,722 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:49,660 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:49,660 [INFO] [job51] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:49,660 [INFO] [job51] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:06:50,181 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:50,924 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:50,924 [INFO] [job51] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:50,924 [INFO] [job51] 搜索: 杭州 - AI产品经理
+2026-06-06 23:06:51,704 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:52,768 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:52,768 [INFO] [job51] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:06:52,768 [INFO] [job51] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:06:53,812 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:54,811 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:54,811 [INFO] [job51] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:06:54,811 [INFO] [job51] 搜索: 杭州 - 具身智能
+2026-06-06 23:06:55,854 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:56,433 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:56,433 [INFO] [job51] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:06:56,433 [INFO] [job51] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:06:56,856 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:57,214 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:57,214 [INFO] [job51] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:06:57,214 [INFO] [job51] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:06:58,223 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:58,842 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:58,842 [INFO] [job51] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:06:58,842 [INFO] [job51] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:06:59,536 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:06:59,992 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:06:59,992 [INFO] [job51] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:06:59,992 [INFO] [job51] 搜索: 苏州 - AI产品经理
+2026-06-06 23:07:00,818 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:01,288 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:07:01,288 [INFO] [job51] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:01,288 [INFO] [job51] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:07:02,258 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:03,289 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:07:03,289 [INFO] [job51] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:03,289 [INFO] [job51] 搜索: 苏州 - 具身智能
+2026-06-06 23:07:04,011 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:04,593 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:07:04,593 [INFO] [job51] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:07:04,593 [INFO] [job51] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:07:05,490 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:06,429 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:07:06,429 [INFO] [job51] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:06,429 [INFO] [job51] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:07:06,872 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:07,378 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:07:07,378 [INFO] [job51] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:07,378 [INFO] [job51] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:07:08,308 [WARNING] [job51] JSON解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:08,948 [INFO] [job51] 第1页(HTML): 提取到 0 个岗位
+2026-06-06 23:07:08,948 [INFO] [job51] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:08,948 [INFO] [Job51] 完成: 0 个 (28s)
+2026-06-06 23:07:08,950 [INFO]   抓到 0 个原始岗位
+2026-06-06 23:07:08,950 [INFO] --- 智联招聘 ---
+2026-06-06 23:07:08,951 [INFO] [Zhilian] 开始...
+2026-06-06 23:07:08,951 [INFO] [zhilian] 搜索: 上海 - AI产品经理
+2026-06-06 23:07:09,685 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:09,685 [INFO] [zhilian] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:09,685 [INFO] [zhilian] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:07:10,348 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:10,351 [INFO] [zhilian] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:10,351 [INFO] [zhilian] 搜索: 上海 - 具身智能
+2026-06-06 23:07:11,218 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:11,218 [INFO] [zhilian] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:07:11,218 [INFO] [zhilian] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:07:12,172 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:12,172 [INFO] [zhilian] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:12,172 [INFO] [zhilian] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:07:12,940 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:12,940 [INFO] [zhilian] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:12,940 [INFO] [zhilian] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:07:13,337 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:13,337 [INFO] [zhilian] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:13,337 [INFO] [zhilian] 搜索: 杭州 - AI产品经理
+2026-06-06 23:07:14,340 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:14,340 [INFO] [zhilian] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:14,340 [INFO] [zhilian] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:07:14,966 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:14,966 [INFO] [zhilian] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:14,966 [INFO] [zhilian] 搜索: 杭州 - 具身智能
+2026-06-06 23:07:15,745 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:15,746 [INFO] [zhilian] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:07:15,746 [INFO] [zhilian] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:07:16,767 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:16,767 [INFO] [zhilian] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:16,767 [INFO] [zhilian] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:07:17,120 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:17,120 [INFO] [zhilian] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:17,120 [INFO] [zhilian] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:07:17,717 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:17,717 [INFO] [zhilian] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:17,717 [INFO] [zhilian] 搜索: 苏州 - AI产品经理
+2026-06-06 23:07:18,310 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:18,310 [INFO] [zhilian] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:18,310 [INFO] [zhilian] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:07:19,008 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:19,008 [INFO] [zhilian] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:19,008 [INFO] [zhilian] 搜索: 苏州 - 具身智能
+2026-06-06 23:07:19,987 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:19,987 [INFO] [zhilian] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:07:19,987 [INFO] [zhilian] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:07:20,548 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:20,548 [INFO] [zhilian] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:20,548 [INFO] [zhilian] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:07:20,892 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:20,893 [INFO] [zhilian] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:20,893 [INFO] [zhilian] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:07:21,225 [INFO] [zhilian] 第1页: 提取到 0 个岗位
+2026-06-06 23:07:21,225 [INFO] [zhilian] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:21,225 [INFO] [Zhilian] 完成: 0 个 (12s)
+2026-06-06 23:07:21,225 [INFO]   抓到 0 个原始岗位
+2026-06-06 23:07:21,225 [INFO] ========================================
+2026-06-06 23:07:21,225 [INFO] Phase 1 完成: 0 个候选 | 0 个被财务排除 | 0 个原始岗位
+2026-06-06 23:07:21,225 [WARNING] 所有平台均未抓到符合条件的数据 → 可能是爬虫被拦截或关键词不匹配
+2026-06-06 23:07:21,225 [WARNING] 已尝试 5 个平台, 3 个城市, 6 个关键词
+2026-06-06 23:07:21,227 [INFO] Phase 2 精选:
+2026-06-06 23:07:21,227 [INFO] 推送 0 个岗位 | 耗时 67s
+2026-06-06 23:07:21,716 [INFO] 企业微信推送成功
+2026-06-06 23:07:52,903 [INFO] [BossZhipin] 开始...
+2026-06-06 23:07:52,903 [INFO] [boss_zhipin] 搜索: 上海 - AI产品经理
+2026-06-06 23:07:53,307 [INFO] [boss_zhipin] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:53,307 [INFO] [boss_zhipin] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:07:53,354 [INFO] [boss_zhipin] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:53,354 [INFO] [boss_zhipin] 搜索: 上海 - 具身智能
+2026-06-06 23:07:53,390 [INFO] [boss_zhipin] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:07:53,390 [INFO] [boss_zhipin] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:07:53,431 [INFO] [boss_zhipin] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:53,431 [INFO] [boss_zhipin] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:07:53,474 [INFO] [boss_zhipin] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:53,474 [INFO] [boss_zhipin] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:07:53,513 [INFO] [boss_zhipin] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:53,513 [INFO] [boss_zhipin] 搜索: 杭州 - AI产品经理
+2026-06-06 23:07:53,563 [INFO] [boss_zhipin] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:53,563 [INFO] [boss_zhipin] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:07:53,621 [INFO] [boss_zhipin] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:53,621 [INFO] [boss_zhipin] 搜索: 杭州 - 具身智能
+2026-06-06 23:07:53,657 [INFO] [boss_zhipin] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:07:53,657 [INFO] [boss_zhipin] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:07:53,711 [INFO] [boss_zhipin] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:53,711 [INFO] [boss_zhipin] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:07:53,747 [INFO] [boss_zhipin] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:53,747 [INFO] [boss_zhipin] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:07:53,783 [INFO] [boss_zhipin] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:53,783 [INFO] [boss_zhipin] 搜索: 苏州 - AI产品经理
+2026-06-06 23:07:53,817 [INFO] [boss_zhipin] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:53,817 [INFO] [boss_zhipin] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:07:53,866 [INFO] [boss_zhipin] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:53,866 [INFO] [boss_zhipin] 搜索: 苏州 - 具身智能
+2026-06-06 23:07:53,901 [INFO] [boss_zhipin] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:07:53,901 [INFO] [boss_zhipin] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:07:53,937 [INFO] [boss_zhipin] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:53,937 [INFO] [boss_zhipin] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:07:53,977 [INFO] [boss_zhipin] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:53,977 [INFO] [boss_zhipin] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:07:54,017 [INFO] [boss_zhipin] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:54,017 [INFO] [BossZhipin] 完成: 0 个 (1s)
+2026-06-06 23:07:54,017 [INFO] [Lagou] 开始...
+2026-06-06 23:07:54,017 [INFO] [lagou] 搜索: 上海 - AI产品经理
+2026-06-06 23:07:54,846 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:54,846 [INFO] [lagou] 上海-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:54,846 [INFO] [lagou] 搜索: 上海 - 机器人产品经理
+2026-06-06 23:07:55,774 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:55,774 [INFO] [lagou] 上海-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:55,774 [INFO] [lagou] 搜索: 上海 - 具身智能
+2026-06-06 23:07:56,571 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:56,571 [INFO] [lagou] 上海-具身智能: 找到 0 个岗位
+2026-06-06 23:07:56,571 [INFO] [lagou] 搜索: 上海 - 解决方案工程师
+2026-06-06 23:07:57,035 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:57,035 [INFO] [lagou] 上海-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:07:57,035 [INFO] [lagou] 搜索: 上海 - 机器人解决方案
+2026-06-06 23:07:57,378 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:57,378 [INFO] [lagou] 上海-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:07:57,378 [INFO] [lagou] 搜索: 上海 - 自动驾驶产品
+2026-06-06 23:07:57,880 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:57,880 [INFO] [lagou] 上海-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:07:57,881 [INFO] [lagou] 搜索: 杭州 - AI产品经理
+2026-06-06 23:07:58,581 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:58,581 [INFO] [lagou] 杭州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:07:58,581 [INFO] [lagou] 搜索: 杭州 - 机器人产品经理
+2026-06-06 23:07:58,922 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:58,922 [INFO] [lagou] 杭州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:07:58,922 [INFO] [lagou] 搜索: 杭州 - 具身智能
+2026-06-06 23:07:59,798 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:07:59,798 [INFO] [lagou] 杭州-具身智能: 找到 0 个岗位
+2026-06-06 23:07:59,798 [INFO] [lagou] 搜索: 杭州 - 解决方案工程师
+2026-06-06 23:08:00,171 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:00,176 [INFO] [lagou] 杭州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:08:00,176 [INFO] [lagou] 搜索: 杭州 - 机器人解决方案
+2026-06-06 23:08:00,678 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:00,678 [INFO] [lagou] 杭州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:08:00,678 [INFO] [lagou] 搜索: 杭州 - 自动驾驶产品
+2026-06-06 23:08:01,422 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:01,422 [INFO] [lagou] 杭州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:08:01,422 [INFO] [lagou] 搜索: 苏州 - AI产品经理
+2026-06-06 23:08:01,948 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:01,948 [INFO] [lagou] 苏州-AI产品经理: 找到 0 个岗位
+2026-06-06 23:08:01,948 [INFO] [lagou] 搜索: 苏州 - 机器人产品经理
+2026-06-06 23:08:02,633 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:02,633 [INFO] [lagou] 苏州-机器人产品经理: 找到 0 个岗位
+2026-06-06 23:08:02,633 [INFO] [lagou] 搜索: 苏州 - 具身智能
+2026-06-06 23:08:03,484 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:03,484 [INFO] [lagou] 苏州-具身智能: 找到 0 个岗位
+2026-06-06 23:08:03,484 [INFO] [lagou] 搜索: 苏州 - 解决方案工程师
+2026-06-06 23:08:03,860 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:03,860 [INFO] [lagou] 苏州-解决方案工程师: 找到 0 个岗位
+2026-06-06 23:08:03,860 [INFO] [lagou] 搜索: 苏州 - 机器人解决方案
+2026-06-06 23:08:04,751 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:04,751 [INFO] [lagou] 苏州-机器人解决方案: 找到 0 个岗位
+2026-06-06 23:08:04,751 [INFO] [lagou] 搜索: 苏州 - 自动驾驶产品
+2026-06-06 23:08:05,297 [WARNING] [lagou] JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-06-06 23:08:05,298 [INFO] [lagou] 苏州-自动驾驶产品: 找到 0 个岗位
+2026-06-06 23:08:05,298 [INFO] [Lagou] 完成: 0 个 (11s)
