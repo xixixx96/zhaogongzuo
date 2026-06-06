@@ -52,7 +52,8 @@ logger = logging.getLogger("bot")
 #  公司评分引擎
 #
 #  评分权重：
-#    融资轮次 30% + 薪资水平 30% + 行业匹配 30% + 司法扣分 10%
+#    融资轮次 30% + 薪资水平 30% + 行业匹配 30% + 司法扣分 (上限5%)
+#  B轮 ≧ 已上市 > A轮，40K以上薪资满分
 #  城市限定：上海、杭州、苏州
 # ============================================================
 
@@ -60,121 +61,103 @@ logger = logging.getLogger("bot")
 def _calc_company_score(job: dict, status: dict | None) -> int:
     """
     综合评分 0-100
-    融资轮次 30% + 薪资水平 30% + 行业匹配 30% + 司法扣分 10%
-    城市限定：上海/杭州/苏州
+    融资 30% + 薪资 30% + 行业 30% + 司法扣分(上限5)
     """
     score = 0
     title = job.get("title", "")
     desc = job.get("description", "")
     text = f"{title} {desc}".lower()
 
-    # ===== 1. 融资轮次评分 (权重 30%，满分 30) =====
+    # ===== 1. 融资轮次评分 (满分 30) =====
+    # B轮评分最高（成长期确定性最强），上市次之，A轮居三
     if status:
         funding_raw = status.get("funding", "").strip().lower()
-        if "已上市" in funding_raw:
-            score += 30
+
+        if "b" in funding_raw and ("轮" in funding_raw or "+" in funding_raw):
+            score += 30      # B轮：满分，成长期确定性最强
+        elif "c" in funding_raw and ("轮" in funding_raw or "+" in funding_raw):
+            score += 28      # C轮
+        elif "已上市" in funding_raw:
+            score += 26      # 上市公司：稳定但增长空间可能有限
+        elif "d" in funding_raw and ("轮" in funding_raw or "+" in funding_raw):
+            score += 25      # D轮
+        elif "e" in funding_raw and ("轮" in funding_raw or "+" in funding_raw):
+            score += 23      # E轮/Pre-IPO
         elif "pre-ipo" in funding_raw:
-            score += 28
-        elif "e" in funding_raw and "轮" in funding_raw:
-            score += 27
-        elif "d" in funding_raw and "轮" in funding_raw:
-            score += 24
-        elif "c" in funding_raw and "轮" in funding_raw:
-            score += 20
-        elif "b" in funding_raw and "轮" in funding_raw:
-            score += 15
-        elif "a" in funding_raw and "轮" in funding_raw:
-            score += 8
+            score += 22
+        elif "a" in funding_raw and ("轮" in funding_raw or "+" in funding_raw):
+            score += 15      # A轮：早期但已有验证
         elif any(k in funding_raw for k in ["天使", "种子", "pre-a"]):
-            score += 4
+            score += 5       # 极早期，风险高
         else:
-            score += 6  # 未知融资给基础分
+            score += 10      # 未知融资
     else:
-        score += 6
+        score += 10
 
-    # ===== 2. 薪资水平评分 (权重 30%，满分 30) =====
+    # ===== 2. 薪资水平评分 (满分 30) =====
+    # ≥40K 即是满分，代表岗位价值高
     salary_max = job.get("salary_max", 0)
-    if salary_max >= 60000:
-        score += 30
-    elif salary_max >= 50000:
-        score += 27
-    elif salary_max >= 40000:
-        score += 23
+    if salary_max >= 40000:
+        score += 30           # 40K+ 满分
     elif salary_max >= 35000:
-        score += 18
+        score += 26
     elif salary_max >= 30000:
-        score += 13
+        score += 20
     elif salary_max >= 25000:
-        score += 8
+        score += 12
     else:
-        score += 3
+        score += 5            # 低于25K给最低分
 
-    # ===== 3. 行业匹配度评分 (权重 30%，满分 30) =====
-    # 关键词匹配，按匹配程度叠加，上限 30
+    # ===== 3. 行业匹配度评分 (满分 30) =====
     match_score = 0
 
-    # 3a. 核心硬匹配（每条 8 分）
-    core_keywords = ["具身智能", "人形机器人", "大模型", "agi", "自动驾驶", "具身", "embodied"]
-    for kw in core_keywords:
+    # 3a. 核心领域匹配（每条 10 分）
+    core_kw = ["具身智能", "人形机器人", "embodied", "具身"]
+    for kw in core_kw:
         if kw in text:
-            match_score += 8
-            break  # 命中一个即可
+            match_score += 10
+            break
 
-    # 3b. 岗位类型匹配（每条 6 分）
-    job_type_keywords = [
-        "产品经理", "产品总监", "产品负责人",
-        "解决方案工程师", "解决方案架构师", "方案工程师",
-    ]
-    for kw in job_type_keywords:
+    # 3b. AI/机器人广度（每条 7 分）
+    ai_kw = ["大模型", "agi", "自动驾驶", "机器人", "人工智能", "深度学习"]
+    for kw in ai_kw:
+        if kw in text:
+            match_score += 7
+            break
+
+    # 3c. 岗位类型匹配（每条 7 分）
+    job_kw = ["产品经理", "产品总监", "产品负责人", "解决方案工程师", "解决方案架构师", "方案工程师"]
+    for kw in job_kw:
         if kw in title:
+            match_score += 7
+            break
+
+    # 3d. 技术关键词（每条 6 分）
+    tech_kw = ["slam", "运动控制", "机器视觉", "强化学习", "transformer", "llm", "感知算法", "规划控制"]
+    for kw in tech_kw:
+        if kw in text:
             match_score += 6
             break
 
-    # 3c. 行业广度匹配（每条 5 分）
-    industry_broad = ["机器人", "ai产品", "人工智能", "智能硬件", "slam", "运动控制", "机器视觉"]
-    for kw in industry_broad:
-        if kw in text:
-            match_score += 5
-            break
+    score += min(30, match_score)
 
-    # 3d. 技术深度匹配（每条 5 分）
-    tech_keywords = ["深度学习", "强化学习", "transformer", "llm", "感知", "规划", "控制算法"]
-    for kw in tech_keywords:
-        if kw in text:
-            match_score += 5
-            break
-
-    # 3e. 公司领域匹配（每条 3 分）
-    company_domain = ["机器人公司", "自动驾驶", "智能制造", "机器狗", "机械臂"]
-    cinfo = job.get("company_info", "").lower()
-    if any(kw in cinfo for kw in company_domain):
-        match_score += 3
-
-    score += min(30, match_score)  # 行业匹配满分 30
-
-    # ===== 4. 司法案件扣分 (权重 10%，扣分上限 10) =====
+    # ===== 4. 司法扣分 (上限 5 分) =====
     if status:
         lawsuits = status.get("lawsuits", 0)
-        zhixing = status.get("zhixing", False)
-        abnormal = status.get("abnormal", False)
-        dishonesty = status.get("dishonesty", False)
-
         deduction = 0
-        if dishonesty:
-            deduction += 10  # 失信直接扣满（但这种情况应该已被排除）
-        elif zhixing:
-            deduction += 8
-        elif abnormal:
-            deduction += 6
-
-        if lawsuits >= 5:
-            deduction += 6
-        elif lawsuits >= 3:
+        if status.get("dishonesty"):
+            deduction += 5
+        elif status.get("zhixing"):
             deduction += 4
-        elif lawsuits >= 1:
+        elif status.get("abnormal"):
+            deduction += 3
+        if lawsuits >= 5:
+            deduction += 3
+        elif lawsuits >= 3:
             deduction += 2
-
-        score -= min(10, deduction)
+        elif lawsuits >= 1:
+            deduction += 1
+        score -= min(5, deduction)
 
     return max(0, min(100, score))
 
