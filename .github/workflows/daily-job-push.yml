@@ -11,20 +11,23 @@ permissions:
 jobs:
   job-push:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
 
     steps:
       - uses: actions/checkout@v4
         with:
           ref: wecom-bot
 
-      - name: 设置 Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: 安装依赖
-        run: pip install requests beautifulsoup4 lxml
+        run: |
+          pip install requests beautifulsoup4 lxml
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
 
       - name: 运行抓取与推送
         run: python run.py
