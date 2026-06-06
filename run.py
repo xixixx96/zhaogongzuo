@@ -31,6 +31,7 @@ from config import (
     SEEN_JOBS_FILE,
     INDUSTRY_KEYWORDS,
     KEEP_SALARY_UNKNOWN,
+    MAX_JOBS_PER_PUSH,
 )
 from modules.company_check import check_company
 from modules.storage import is_seen, mark_all_seen
@@ -385,12 +386,12 @@ def run_daily():
     mid_tier = [j for j in unique_jobs if 50 <= j["_score"] < 70]
     low_tier = [j for j in unique_jobs if j["_score"] < 50]
 
-    # 优先从 top_tier 选 3 个，不够再从中层补
-    picks = top_tier[:3]
-    if len(picks) < 3:
-        picks += mid_tier[:3 - len(picks)]
-    if len(picks) < 3:
-        picks += low_tier[:3 - len(picks)]
+    # 优先从 top_tier 选 MAX_JOBS_PER_PUSH 个，不够再从中层补
+    picks = top_tier[:MAX_JOBS_PER_PUSH]
+    if len(picks) < MAX_JOBS_PER_PUSH:
+        picks += mid_tier[:MAX_JOBS_PER_PUSH - len(picks)]
+    if len(picks) < MAX_JOBS_PER_PUSH:
+        picks += low_tier[:MAX_JOBS_PER_PUSH - len(picks)]
 
     # 最终去重：确保同公司在一次推送里只出现一次
     final_picks = []
@@ -400,7 +401,7 @@ def run_daily():
         if c not in picked_companies:
             picked_companies.add(c)
             final_picks.append(job)
-        if len(final_picks) >= 3:
+        if len(final_picks) >= MAX_JOBS_PER_PUSH:
             break
 
     # 为精选岗位生成推送理由
