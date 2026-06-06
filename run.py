@@ -327,6 +327,8 @@ def run_daily():
 
         except Exception as e:
             logger.warning(f"  {platform_name} 异常: {e}")
+            import traceback
+            logger.warning(traceback.format_exc())
 
     logger.info(f"{'='*40}")
     logger.info(f"Phase 1 完成: {len(candidates)} 个候选 | {excluded_count} 个被财务排除")
